@@ -1,8 +1,8 @@
 import "./App.css";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
-import NotFound from "./pages/NotFound";
+import Index from "./pages/index";
+import NotFound from "./pages/notfound";
 
 const App = () => (
   <BrowserRouter>
