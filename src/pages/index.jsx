@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { UserCard } from '../components/UserCard';
-import { SearchBar } from '../components/searchBar';
-import { UserModal } from '../components/userModal';
+import { SearchBar } from '../components/SearchBar';
+import { UserModal } from '../components/UserModal';
 
 export default function Index() {
   const [users, setUsers] = useState([]);
